@@ -11,7 +11,7 @@ You need to have `glm` installed. I used `vckpg` for that (add `-DCMAKE_TOOLCHAI
 
 You don't have to install `raylib`, it's fetched automatically from git
 ### How to run:
-I included `arkanoid.exe` to the repo, so you can manually run it if you are Windows user
+I included `raylib_vs.exe` and `raylib_mingw.exe` (which is, for whatever reason, should be run from terminal only) to the repo for Windows users.
 
 ### Guidelines and requirements:
 1. You will have 48h to complete the test

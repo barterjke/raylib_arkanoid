@@ -33,7 +33,7 @@ public:
         walls = {};
         current_background_ind = rand() % ctx.resources.backgrounds.size();
         auto wall_texture = ctx.resources.wall_texture;
-        for (auto i = 5; i < 15; i++) {
+        for (auto i = 3; i < 15; i++) {
             auto color = random_color();
             // rand() is not the best RNG, but it suits our simple needs
             for (auto j = 10; j < 20; j++) {
